@@ -1,46 +1,52 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* website_seo_url
+# 	* website_seo_url
 #
+# Translators:
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-20 14:24-0400\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2022-06-18 19:45-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. module: website_seo_url
 #: model:ir.model.fields,field_description:website_seo_url.field_website_seo_url_display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre a mostrar"
 
 #. module: website_seo_url
 #: model:ir.model,name:website_seo_url.model_ir_http
 msgid "HTTP routing"
-msgstr ""
+msgstr "Enrutamiento HTTP"
 
 #. module: website_seo_url
 #: model:ir.model.fields,field_description:website_seo_url.field_website_seo_url_id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: website_seo_url
 #: model:ir.model.fields,field_description:website_seo_url.field_website_seo_url___last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación el"
 
 #. module: website_seo_url
 #: constraint:website_seo_url:0
 msgid "SEO URL must be unique! Auto changing name failed. Try different name."
 msgstr ""
+"¡La URL de SEO debe ser única! Error al cambiar el nombre automáticamente. "
+"Pruebe con un nombre diferente."
 
 #. module: website_seo_url
 #: model:ir.model,name:website_seo_url.model_website_seo_url
 msgid "website_seo_url"
-msgstr ""
-
+msgstr "URL de SEO del sitio web"

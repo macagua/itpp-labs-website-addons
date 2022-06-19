@@ -8,6 +8,7 @@ from odoo.addons.website.models.website import slugify
 
 class SEOURL(models.AbstractModel):
     _name = "website_seo_url"
+    _description = "Website SEO URL"
 
     _seo_url_field = "seo_url"
 
