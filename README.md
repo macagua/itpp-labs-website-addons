@@ -11,6 +11,7 @@
 <br/>:heavy_check_mark: [website_login_redirect_back](https://apps.odoo.com/apps/modules/13.0/website_login_redirect_back/)
 <br/>:heavy_check_mark: [website_multi_company](https://apps.odoo.com/apps/modules/13.0/website_multi_company/)
 <br/>:heavy_check_mark: [website_multi_company_sale](https://apps.odoo.com/apps/modules/13.0/website_multi_company_sale/)
+<br/>:heavy_check_mark: [website_sale_checkout_store](https://apps.odoo.com/apps/modules/12.0/website_sale_checkout_store/)
 <br/>:heavy_check_mark: [website_sale_search_clear](https://apps.odoo.com/apps/modules/13.0/website_sale_search_clear/)
 <br/>:heavy_check_mark: [website_seo_url](https://apps.odoo.com/apps/modules/13.0/website_seo_url/)
 <br/>:heavy_check_mark: [website_seo_url_product](https://apps.odoo.com/apps/modules/13.0/website_seo_url_product/)
