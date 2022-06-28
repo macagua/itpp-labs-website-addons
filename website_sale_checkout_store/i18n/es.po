@@ -1,206 +1,255 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* website_sale_checkout_store
+# 	* website_sale_checkout_store
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2021, 2022.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2022-01-08 02:37+0000\n"
+"PO-Revision-Date: 2022-06-28 15:53-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: ES <LL@li.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.1\n"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "&amp; Shipping"
-msgstr ""
+msgstr "&amp; Envío"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "<b>Billing : </b>"
-msgstr ""
+msgstr "<b>Facturación : </b>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "<b>Shipping: </b>"
-msgstr ""
+msgstr "<b>Envío: </b>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.address
 msgid "<small> or </small>"
-msgstr ""
+msgstr "<small> o </small>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_cart
-#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
-msgid "<span class=\"visible-xs-inline\">Pay now and get delivery</span>\n"
+msgid ""
+"<span class=\"visible-xs-inline\">Pay now and get delivery</span>\n"
 "                            <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
+"<span class=\"visible-xs-inline\">Paga ahora y recibe la entrega</span>\n"
+"                            <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
+msgid ""
+"<span class=\"visible-xs-inline\">Pay now and get delivery</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"<span class=\"visible-xs-inline\">Paga ahora y recibe la entrega</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_cart
-#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
-msgid "<span class=\"visible-xs-inline\">Pay on delivery</span>\n"
+msgid ""
+"<span class=\"visible-xs-inline\">Pay on delivery</span>\n"
 "                            <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
+"<span class=\"visible-xs-inline\">Pagar cuando reciba la entrega</span>\n"
+"                            <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
+msgid ""
+"<span class=\"visible-xs-inline\">Pay on delivery</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"<span class=\"visible-xs-inline\">Pagar cuando reciba la entrega</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_cart
-#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
-msgid "<span class=\"visible-xs-inline\">Pickup and pay at store</span>\n"
+msgid ""
+"<span class=\"visible-xs-inline\">Pickup and pay at store</span>\n"
 "                            <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
+"<span class=\"visible-xs-inline\">Recoger y pagar en tienda</span>\n"
+"                            <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
+msgid ""
+"<span class=\"visible-xs-inline\">Pickup and pay at store</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"<span class=\"visible-xs-inline\">Recoger y pagar en tienda</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_cart
-#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
-msgid "<span class=\"visible-xs-inline\">Pickup at store but pay now</span>\n"
+msgid ""
+"<span class=\"visible-xs-inline\">Pickup at store but pay now</span>\n"
 "                            <span class=\"fa fa-long-arrow-right\"/>"
 msgstr ""
+"<span class=\"visible-xs-inline\">Recoger en tienda pero pagar ahora</span>\n"
+"                            <span class=\"fa fa-long-arrow-right\"/>"
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_short_cart_summary
+msgid ""
+"<span class=\"visible-xs-inline\">Pickup at store but pay now</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
+msgstr ""
+"<span class=\"visible-xs-inline\">Recoger en tienda pero pagar ahora</span>\n"
+"                    <span class=\"fa fa-long-arrow-right\"/>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "<span>Confirm Order <span class=\"fa fa-chevron-right\"/></span>"
-msgstr ""
+msgstr "<span>Confirmar pedido <span class=\"fa fa-chevron-right\"/></span>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "<strong>Delivery: </strong>"
-msgstr ""
+msgstr "<strong>Entrega: </strong>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "<strong>Payment Method: </strong>"
-msgstr ""
+msgstr "<strong>Método de pago: </strong>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "<strong>Payment: </strong>"
-msgstr ""
+msgstr "<strong>Pago: </strong>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.website_sale_checkout_store_confirmation
 msgid "Billing"
-msgstr ""
+msgstr "Facturación"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_sale_order__buy_way
 msgid "Buy Way"
-msgstr ""
+msgstr "Modo de compra"
 
 #. module: website_sale_checkout_store
 #: model:ir.model,name:website_sale_checkout_store.model_res_config_settings
 msgid "Config Settings"
-msgstr ""
+msgstr "Opciones de Configuración"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Confirm Order <span class=\"fa fa-chevron-right\"/>"
-msgstr ""
+msgstr "Confirmar pedido <span class=\"fa fa-chevron-right\"/>"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.address
 msgid "Contact Information"
-msgstr ""
+msgstr "Información del contacto"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_sale_order__delivery_method_information
 msgid "Delivery Method Information"
-msgstr ""
+msgstr "Información del método de entrega"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Pay Now"
-msgstr ""
+msgstr "Pagar ahora"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Pay Now <span class=\"fa fa-chevron-right\"/>"
-msgstr ""
+msgstr "Pagar ahora <span class=\"fa fa-chevron-right\"/>"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:24
+#: code:addons/website_sale_checkout_store/models/main_model.py:0
 #, python-format
 msgid "Pay at store"
-msgstr ""
+msgstr "Pagar en la tienda"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__bill_ship
-#: selection:res.config.settings,bill_ship_option:0
+#: model:ir.model.fields.selection,name:website_sale_checkout_store.selection__res_config_settings__bill_ship_option__bill_ship
 msgid "Pay now and get delivery"
-msgstr ""
+msgstr "Paga ahora y recibe la entrega"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:22
+#: code:addons/website_sale_checkout_store/models/main_model.py:0
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__nobill_ship
-#: selection:res.config.settings,bill_ship_option:0
+#: model:ir.model.fields.selection,name:website_sale_checkout_store.selection__res_config_settings__bill_ship_option__nobill_ship
 #, python-format
 msgid "Pay on delivery"
-msgstr ""
+msgstr "Paga cuando reciba la entrega"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Pay with"
-msgstr ""
+msgstr "Paga con"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_sale_order__payment_acquirer_id
 msgid "Payment Acquirer"
-msgstr ""
+msgstr "Método de pago"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_sale_order__payment_method_information
 msgid "Payment Method Information"
-msgstr ""
+msgstr "Información del método de pago"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__nobill_noship
-#: selection:res.config.settings,bill_ship_option:0
+#: model:ir.model.fields.selection,name:website_sale_checkout_store.selection__res_config_settings__bill_ship_option__nobill_noship
 msgid "Pickup and pay at store"
-msgstr ""
+msgstr "Recoger y pagar en tienda"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:29
+#: code:addons/website_sale_checkout_store/models/main_model.py:0
 #, python-format
 msgid "Pickup at store"
-msgstr ""
+msgstr "Recoger en tienda"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__bill_noship
-#: selection:res.config.settings,bill_ship_option:0
+#: model:ir.model.fields.selection,name:website_sale_checkout_store.selection__res_config_settings__bill_ship_option__bill_noship
 msgid "Pickup at store but pay now"
-msgstr ""
+msgstr "Recoger en tienda pero pagar ahora"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Return to Cart"
-msgstr ""
+msgstr "Volver al carrito"
 
 #. module: website_sale_checkout_store
 #: model:ir.model,name:website_sale_checkout_store.model_sale_order
-msgid "Sale Order"
-msgstr ""
+msgid "Sales Order"
+msgstr "Pedidos de venta"
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__bill_ship_option
 msgid "Selected by default"
-msgstr ""
+msgstr "Seleccionado por defecto"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
 msgid "Shipping and billing"
-msgstr ""
+msgstr "Envío y facturación"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
 msgid "Ways of sale"
-msgstr ""
+msgstr "Formas de venta"
 
 #. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.address
 msgid "Your Address"
-msgstr ""
+msgstr "Su dirección"
 
