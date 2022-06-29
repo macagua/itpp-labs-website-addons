@@ -21,8 +21,9 @@
     "external_dependencies": {"python": [], "bin": []},
     "data": [
         "data/data.xml",
-        "views/templates.xml",
-        "views/views.xml"
+        "views/assets.xml",
+        "views/res_config_settings.xml",
+        "views/website_sale.xml",
     ],
     "installable": False,
     "auto_install": False,
