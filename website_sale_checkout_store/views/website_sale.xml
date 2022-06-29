@@ -4,7 +4,7 @@
     # Copyright 2016 Dinar Gabbasov <https://www.it-projects.info/team/GabbasovDinar>
     # Copyright 2016-2017 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
     # Copyright 2017 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
-    # Copyright 2021-2022  Leonardo Caballero <https://github.com/macagua>
+    # Copyright 2021-2022 Leonardo Caballero <https://github.com/macagua>
     # License MIT (https://opensource.org/licenses/MIT).-->
 <odoo noupdate="0">
 
@@ -71,10 +71,11 @@
         inherit_id="website_sale.cart"
         priority="50"
     >
+
         <xpath
             expr="//div[hasclass('row')]//a[hasclass('btn','btn-primary')][@href='/shop/checkout?express=1']"
             position="replace"
-        >
+        > <!-- TODO: Fixed this xpath -->
             <t t-if="not hide_checkout_button">
                 <t
                     t-set="button_class"
@@ -177,9 +178,9 @@
         <xpath expr="//div[hasclass('row','all_shipping')]" position="attributes">
             <attribute name="t-att-ship">1</attribute>
         </xpath>
-        <xpath expr="//div[./h3[contains(.,'Shipping Address')]]" position="attributes">
+        <!-- <xpath expr="//div[./h3[contains(.,'Shipping Address')]]" position="attributes">
             <attribute name="t-att-ship">1</attribute>
-        </xpath>
+        </xpath> --> <!-- TODO: Fixed this xpath -->
     </template>
 
     <template id="address" name="my_checkout" inherit_id="website_sale.address">

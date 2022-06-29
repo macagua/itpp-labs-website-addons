@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-01-08 02:37+0000\n"
-"PO-Revision-Date: 2022-06-28 15:53-0400\n"
+"POT-Creation-Date: 2018-04-24 10:19+0000\n"
+"PO-Revision-Date: 2022-06-29 13:35+0000\n"
 "Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
 "Language-Team: ES <LL@li.org>\n"
 "Language: es\n"
@@ -161,6 +161,26 @@ msgid "Delivery Method Information"
 msgstr "Información del método de entrega"
 
 #. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
+msgid "Enable the 'Pay now and get delivery' button."
+msgstr "Habilite el botón 'Paga ahora y recibe la entrega'."
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
+msgid "Enable the 'Pay on delivery' button."
+msgstr "Habilite el botón 'Pagar cuando reciba la entrega'."
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
+msgid "Enable the 'Pickup and pay at store' button."
+msgstr "Habilite el botón 'Recoger y pagar en tienda'."
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
+msgid "Enable the 'Pickup at store but pay now' button."
+msgstr "Habilite el botón 'Recoger en tienda pero pagar ahora'."
+
+#. module: website_sale_checkout_store
 #: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.payment
 msgid "Pay Now"
 msgstr "Pagar ahora"
@@ -171,7 +191,7 @@ msgid "Pay Now <span class=\"fa fa-chevron-right\"/>"
 msgstr "Pagar ahora <span class=\"fa fa-chevron-right\"/>"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:0
+#: code:addons/website_sale_checkout_store/models/sale_order.py:0
 #, python-format
 msgid "Pay at store"
 msgstr "Pagar en la tienda"
@@ -183,7 +203,7 @@ msgid "Pay now and get delivery"
 msgstr "Paga ahora y recibe la entrega"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:0
+#: code:addons/website_sale_checkout_store/models/sale_order.py:0
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__nobill_ship
 #: model:ir.model.fields.selection,name:website_sale_checkout_store.selection__res_config_settings__bill_ship_option__nobill_ship
 #, python-format
@@ -212,7 +232,7 @@ msgid "Pickup and pay at store"
 msgstr "Recoger y pagar en tienda"
 
 #. module: website_sale_checkout_store
-#: code:addons/website_sale_checkout_store/models/main_model.py:0
+#: code:addons/website_sale_checkout_store/models/sale_order.py:0
 #, python-format
 msgid "Pickup at store"
 msgstr "Recoger en tienda"
@@ -232,6 +252,11 @@ msgstr "Volver al carrito"
 #: model:ir.model,name:website_sale_checkout_store.model_sale_order
 msgid "Sales Order"
 msgstr "Pedidos de venta"
+
+#. module: website_sale_checkout_store
+#: model_terms:ir.ui.view,arch_db:website_sale_checkout_store.res_config_settings_view_form
+msgid "Select the option that is enabled by default."
+msgstr "Seleccione la opción que está habilitada de forma predeterminada."
 
 #. module: website_sale_checkout_store
 #: model:ir.model.fields,field_description:website_sale_checkout_store.field_res_config_settings__bill_ship_option

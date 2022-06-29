@@ -2,39 +2,68 @@
 <!--# Copyright 2016 Ilyas <https://github.com/ilyasProgrammer>
     # Copyright 2016 Ildar Nasyrov <https://www.it-projects.info/team/iledarn>
     # Copyright 2016 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
+    # Copyright 2021-2022 Leonardo Caballero <https://github.com/macagua>
     # License MIT (https://opensource.org/licenses/MIT).-->
 <odoo>
     <record id="res_config_settings_view_form" model="ir.ui.view">
-        <field
-            name="name"
-        >res.config.settings.view.form.inherit.website.sale.checkout.store</field>
+        <field name="name">res.config.settings.view.form.inherit.website.sale.checkout.store</field>
         <field name="model">res.config.settings</field>
         <field name="inherit_id" ref="website.res_config_settings_view_form" />
         <field name="arch" type="xml">
             <div id="sale_shipping_settings" position="after">
                 <h2>Shipping and billing</h2>
-                <group name="shipping_billing">
+                <div class="row mt16 o_settings_container">
                     <label for="nobill_noship" string="Ways of sale" />
-                    <div>
-                        <div>
-                            <field name="nobill_noship" />
-                            <label for="nobill_noship" />
+                    <div class="col-xs-12 col-md-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="nobill_noship"/>
                         </div>
-                        <div>
-                            <field name="bill_noship" />
-                            <label for="bill_noship" />
+                        <div class="o_setting_right_pane">
+                            <label for="nobill_noship"/>
+                            <div class="text-muted" id="website_nobill_noship">
+                                Enable the 'Pickup and pay at store' button.
+                            </div>
                         </div>
-                        <div>
-                            <field name="bill_ship" />
-                            <label for="bill_ship" />
+                        <div class="o_setting_left_pane">
+                            <field name="bill_noship"/>
                         </div>
-                        <div>
-                            <field name="nobill_ship" />
-                            <label for="nobill_ship" />
+                        <div class="o_setting_right_pane">
+                            <label for="bill_noship"/>
+                            <div class="text-muted" id="website_bill_noship">
+                                Enable the 'Pickup at store but pay now' button.
+                            </div>
+                        </div>
+                        <div class="o_setting_left_pane">
+                            <field name="bill_ship"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="bill_ship"/>
+                            <div class="text-muted" id="website_bill_ship">
+                                Enable the 'Pay now and get delivery' button.
+                            </div>
+                        </div>
+                        <div class="o_setting_left_pane">
+                            <field name="nobill_ship"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="nobill_ship"/>
+                            <div class="text-muted" id="website_nobill_ship">
+                                Enable the 'Pay on delivery' button.
+                            </div>
                         </div>
                     </div>
-                    <field name="bill_ship_option" />
-                </group>
+                    <div class="o_setting_right_pane">
+                        <label for="bill_ship_option"/>
+                        <div class="text-muted">
+                            Select the option that is enabled by default.
+                        </div>
+                        <div class="content-group">
+                            <div class="mt16">
+                                <field name="bill_ship_option" class="oe_inline"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </field>
     </record>
