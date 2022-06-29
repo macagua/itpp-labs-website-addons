@@ -4,6 +4,7 @@
     # Copyright 2016 Dinar Gabbasov <https://www.it-projects.info/team/GabbasovDinar>
     # Copyright 2016-2017 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
     # Copyright 2017 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
+    # Copyright 2022 Leonardo Caballero <https://github.com/macagua>
     # License MIT (https://opensource.org/licenses/MIT).-->
 <odoo noupdate="0">
     <template
@@ -34,6 +35,7 @@
             />
         </xpath>
     </template>
+
     <template
         id="website_sale_checkout_store_short_cart_summary"
         inherit_id="website_sale.short_cart_summary"
@@ -90,6 +92,7 @@
             </div>
         </xpath>
     </template>
+
     <template
         id="website_sale_checkout_store_cart"
         name="my_cart"
@@ -190,6 +193,7 @@
             </t>
         </xpath>
     </template>
+
     <template id="checkout" name="my_checkout" inherit_id="website_sale.checkout">
         <xpath
             expr="//div[hasclass('container','oe_website_sale')]"
@@ -205,6 +209,7 @@
             <attribute name="t-att-ship">1</attribute>
         </xpath>
     </template>
+
     <template id="address" name="my_checkout" inherit_id="website_sale.address">
         <xpath
             expr="//t[@t-if=&quot;partner_id == website_sale_order.partner_shipping_id.id == website_sale_order.partner_invoice_id.id&quot;]"
@@ -280,6 +285,7 @@
             <input t-if="ship_enabled == '0'" type="hidden" name="use_same" value="1" />
         </xpath>
     </template>
+
     <template id="payment" inherit_id="website_sale.payment" name="Payment">
         <xpath expr="//div[@id='payment_method']" position="replace">
             <!-- based on https://github.com/odoo/odoo/blob/97f89dc0484902c58dec5dbb9de65f17661163f4/addons/website_sale/views/templates.xml#L1340 -->
@@ -351,6 +357,7 @@
             </div>
         </xpath>
     </template>
+
     <template
         id="website_sale_checkout_store_confirmation"
         name="my_confirmation"

@@ -1,3 +1,10 @@
+`1.0.7`
+-------
+
+- FIX: fixed issues for v13
+- ADD: Added Spanish translations
+- IMP: Updated German translations
+
 `1.0.6`
 -------
 
@@ -32,4 +39,4 @@
 `1.0.0`
 -------
 
-- init version
+- Init version

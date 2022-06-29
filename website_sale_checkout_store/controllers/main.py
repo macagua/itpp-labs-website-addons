@@ -2,6 +2,7 @@
 # Copyright 2016-2017 Ivan Yelizariev <https://it-projects.info/team/yelizariev>
 # Copyright 2017 Dmytro Katyukha <https://github.com/katyukha>
 # Copyright 2017-2018 Kolushov Alexandr <https://it-projects.info/team/KolushovAlexandr>
+# Copyright 2021-2022  Leonardo Caballero <https://github.com/macagua>
 
 from odoo import http
 from odoo.http import request
